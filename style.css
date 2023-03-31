@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #F8F8F8;
+}
+
+header {
+	background-color: #333;
+	color: #FFF;
+	padding: 10px;
+	text-align: center;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin: 20px 0;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	margin: 20px 0;
+}
+
+.buttons {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.buttons a {
+	background-color: #333;
+	color: #FFF;
+	padding: 10px 20px;
+	margin: 0 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.buttons a:hover {
+	background-color: #FFF;
+	color: #333;
+}
+
+@media (max-width: 768px) {
+	main {
+		padding: 10px;
+	}
+}
